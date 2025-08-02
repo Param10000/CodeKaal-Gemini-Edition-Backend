@@ -49,4 +49,5 @@ app.use((err, req, res, next) => {
     });
 });
 
-module.exports = app
+// Export the Express app for Vercel serverless functions
+module.exports = app;
